@@ -47,3 +47,8 @@ pip install torch torchvision pycocotools numpy matplotlib pillow kagglehub
 - **No hyperparameter search** (learning rate, epochs, loss function), because each training run is long even on Kaggle GPUs
 - Trained on **about 8 % of the training set** for 5 epochs only
 - Possible improvements: train on the full dataset, combine BCE with a Dice loss, and extend to multi-class segmentation
+
+## Authors
+
+- Anis Feore
+- Alexis Meunier
